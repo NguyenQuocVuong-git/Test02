@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Home  from './components/Home';
+import Home  from './pages/Home';
 import Navbar from './components/Navbar'
-import Photo from './components/Photo';
-import Category from './components/Category'
+import Photo from './pages/Photo';
+import Category from './pages/Category'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

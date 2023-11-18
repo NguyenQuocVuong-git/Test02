@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { fetchAlbum, fetchPhotoFromAlbumId , capitalizeFirstLetter } from '../../utils/helper'
-import ItemCategory from '../ItemCategory'
+import ItemCategory from '../../components/ItemCategory'
 
 
 export default function Category() {
